@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-image: url('background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    margin: 20px auto;
+    max-width: 500px;
+    position: relative;
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 2.5em;
+}
+
+.artwork img, .congratulationsImage img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ff69b4;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: transform 2s;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+.hidden {
+    display: none;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #00ff00;
+}
+
+.congratulationsImage img.zoom {
+    transform: scale(1.5);
+}
+
+.congratulationsImage {
+    position: relative;
+}
+
+#iLoveYouButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    padding: 15px 30px;
+}

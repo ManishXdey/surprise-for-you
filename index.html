@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise for You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="welcome">
+        <h1>Hi Sakchunni Thakuma, I have a surprise for you!</h1>
+        <button id="startButton">Ready</button>
+    </div>
+
+    <div class="container hidden" id="questionContainer">
+        <h1 id="question">Question</h1>
+        <button class="optionButton" id="option1">Option 1</button>
+        <button class="optionButton" id="option2">Option 2</button>
+        <p id="feedback" class="hidden">Feedback</p>
+    </div>
+
+    <div class="container hidden" id="congratulationsContainer">
+        <h1>Congratulations!</h1>
+        <div class="congratulationsImage">
+            <img src="congratulations.jpg" alt="Congratulations">
+            <button id="iLoveYouButton">I love you too</button>
+        </div>
+        <p>You did it! Here's your surprise:</p>
+        <audio id="celebrationSound" src="celebration.mp3"></audio>
+    </div>
+
+    <div class="container hidden" id="artworkContainer">
+        <h1>Here is your surprise!</h1>
+        <div class="artwork">
+            <img src="artwork.jpg" alt="Artwork">
+        </div>
+        <p>This artwork is a token of our love and appreciation for you.</p>
+        <p>Love, Mecho Bhoot</p>
+    </div>
+
+    <audio id="correctSound" src="correct.mp3"></audio>
+    <audio id="congratulationSound" src="congratulation.mp3"></audio>
+    <script src="scripts.js"></script>
+</body>
+</html>
